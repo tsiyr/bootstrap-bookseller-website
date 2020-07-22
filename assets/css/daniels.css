@@ -1,0 +1,147 @@
+.rounded-circle.admin_list_tnail {
+    width: 80px;
+    height: 80px;
+    padding: 7px;
+}
+
+.admin_list_title {
+  font-size: 21px;
+  margin-top:21px;
+}
+
+.material-icons.admin_list_icon {
+  margin-top: 21px;
+}
+
+.row.admin_list {
+  margin-top:12px;
+  max-height:124px;
+  margin-right:auto;
+  margin-left:auto;
+  border:solid 2px;
+  max-width:600px;
+}
+
+.thumbnail_img {
+  height: 250px;
+  padding:20px;
+}
+
+.login-clean .illustration {
+  text-align:center;
+  padding:0 0 20px;
+  font-size:100px;
+  color:rgb(244,71,107);
+}
+
+#preview_{
+    max-width: 90%;
+    width: 300px;
+    height: 300px;
+    max-height: 20vh;;
+}
+
+
+
+.block-with-text {
+  overflow: hidden;
+  position: relative;
+  line-height: 1.2em;
+  height: 100px;
+ /* text-align: justify;
+  margin-right: -1em;
+  padding-right: 1em;*/
+}
+.block-with-text:before {
+  content: '...';
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.block-with-text:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  width: 1em;
+  height: 1em;
+  margin-top: 0.2em;
+  background: white;
+}
+
+@media (max-width: 600px ){
+
+.material-icons.admin_list_icon {
+    font-size: 21px;
+}
+
+	
+	.menu_icons {
+        margin-right: auto;
+        margin-left: auto;
+        padding: 8px;
+        font-size: 54px;
+	}
+}
+
+
+@media (min-width: 601px ){
+
+  .material-icons.admin_list_icon {
+    font-size: 35px;
+}
+	
+	.menu_icons {
+        margin-right: auto;
+        margin-left: auto;
+        padding: 8px;
+        font-size: 74px;
+	}
+}
+
+.progress_bar{
+    display:none;
+}
+
+
+@media (max-width: 600px ){
+  
+  .admin_list_title {
+        /*margin-top: 12px;*/
+  }
+
+  .admin_list_icon {
+        font-size: 2rem;
+  }
+
+
+  .rounded-circle.admin_list_tnail {
+    width: 80px;
+    height: 80px;
+    padding: 7px;
+}
+
+}
+
+
+@media (min-width: 601px ){
+  
+  .admin_list_title {
+        margin-top: 21px;
+  }
+}
+
+
+.card-title{
+    height:56px;
+    overflow:hidden;
+}
+/*@media (min-width: 441px ) and (max-width: 767px){
+	
+	.menu_icons {
+        margin-right: auto;
+        margin-left: auto;
+        padding: 8px;
+        font-size: 74px;
+	}
+}*/
+

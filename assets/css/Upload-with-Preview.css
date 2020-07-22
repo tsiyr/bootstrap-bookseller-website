@@ -1,0 +1,71 @@
+.contact-clean form .btn {
+  padding:16px 32px;
+  border:none;
+  background:none;
+  box-shadow:none;
+  text-shadow:none;
+  opacity:0.9;
+  text-transform:uppercase;
+  font-weight:bold;
+  font-size:13px;
+  letter-spacing:0.4px;
+  line-height:1;
+  outline:none !important;
+}
+
+.contact-clean form .btn:hover {
+  opacity:1;
+}
+
+.contact-clean form .btn:active {
+  transform:translateY(1px);
+}
+
+.contact-clean form .btn-primary {
+  background-color:#055ada !important;
+  margin-top:15px;
+  color:#fff;
+}
+
+.upload-btn-wrapper {
+  position:relative;
+  overflow:hidden;
+  /*display:inline-block;*/
+}
+
+.btn {
+  border:2px solid gray;
+  color:gray;
+  background-color:white;
+  padding:8px 20px;
+  border-radius:8px;
+  font-size:20px;
+  font-weight:bold;
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size:100px;
+  position:absolute;
+  left:0;
+  top:0;
+  opacity:0;
+}
+
+audio, canvas, iframe, img, svg, video {
+  vertical-align:middle;
+}
+
+audio, canvas, img, video {
+  max-width:100%;
+  height:auto;
+  box-sizing:border-box;
+}
+
+img {
+  border-style:none;
+}
+
+a, area, button, input, label, select, summary, textarea {
+  touch-action:manipulation;
+}
+
